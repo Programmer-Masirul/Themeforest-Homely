@@ -6,44 +6,7 @@
  * 
  */
 /* Table of contents
-=========================
-1.Preloader
-2.Scrollup
-4.Nav Menu CSS
-3.Slider Section
-5.Info Card
-6.Icon Card
-7. About Image Card
-8. About Info Card
-9. Promotional Card
-10. Video Popup Card
-11. Counter Card
-12. Process Step Card
-13. Testimonial Card
-14. Accordion Card
-15. Client Logo Card
-16. Post Card
-17. Skill Progress Card
-18. Price Card
-19. Call To Action Card
-20. Title Card
-21. Breadcrumb
-22. Paginations
-23. Timeline Card
-24. Project Details Page
-25. Sidebar
-26. Comment List
-27. Comment Form
-28. Team member
-29. Portfolio
-30. About Page
-31. Contact Page
-32. Pricing Page
-33. Service Page
-34. Team Page
-35. Blog Page
-36. Footer
-
+========================= 
 
 ===========================*/
 /* Theme Default CSS */
@@ -60,125 +23,72 @@
 @import "partials/scrollup";
 
 // 3.Nav Menu
-@import "partials/header"; 
-@import "modules/meanmenu";
+@import "partials/header";  
 @import "partials/menu-sidebar";
 
-// 4.Intro Section
-@import "modules/intro/intro-style-one"; 
-
-
-// 5.Featured Card 
-@import "modules/cards/card-wrapper-style-one";
-@import "modules/cards/card-wrapper-style-two";
-
-// Blog card
-
-// 6.Icon Card
-@import "modules/icon-card/icon-card";
-@import "modules/icon-card/icon-card-two";
-@import "modules/icon-card/icon-card-three";
-@import "modules/icon-card/icon-card-four";
-
-// 7. About Image Card   
-
-// 8. About Info Card   
-
-// 9. Promotional Card
-
-// 10. Video Popup Card
-@import "modules/video-popup-card";
-
-// 11. Counter Card 
-
-// 12. Process Step Card
-
-// 13. Testimonial Card  
-
-// 14. Accordion Card
-@import "modules/accordion/accordion"; 
-@import "modules/accordion/accordion-style-one"; 
-
-// 15. Client Logo Card  
-
-// 16. Counter Card   
-@import "modules/counter-one";
-
-
-// 17. Skill Progress Card
-@import "modules/skill-progress";
-
-// 18. Price Card
-@import "modules/price-card";
-
-// 19. Call To Action Card
-@import "modules/call-to-action-card";
-@import "modules/triangle-shape-card";
-
-
-// 20. Title Card
-@import "modules/title-section";
-
-// 21. Breadcrumb
+// BREADCUMB
 @import "modules/breadcrumb/breadcrumb";
+ 
+// Home 1  
+@import "modules/property/find-property";
+@import "modules/featured/featured";
+@import "modules/counter/counter";
 
-// 22. Paginations
-@import "modules/paginations";
-@import "modules/nav-tabs";
+// Faq
+@import "modules/subscribe";
 
-// 23. Timeline Card
-@import "modules/time-card";
+// Team
+@import "modules/team/team-member"; 
 
-// 24. Project Details Page
-@import "pages/project-details";
-@import "modules/list-item";
+// video popup
+@import "modules/video-popup";
 
-// 25. Sidebar
-@import "partials/sidebar"; 
+// ICON content
+@import "modules/icon-content/icon-content";
 
-// 26. Comment List
-@import "modules/comment-list";
+// RECENT POST BOX
+@import "modules/recent-post-box/recent-post-box";
 
-// 27. Comment Form
+// CATEGORIES
+@import "modules/categories/categories";
+
+// TAG AREA
+@import "modules/tags/tag-area";
+
+// CARD BOX
+@import "modules/card-box/card-box";
+
+// SIGN IN MODAL
+@import "modules/sign-in/sign-in";
+
+// PAGINATION
+@import "modules/pagination";
+
+// IMAGE SLIDESHOW
+@import "modules/image-slideshow";
+
+// PROFILE CARD
+@import "modules/profile-card/profile-card-one";
+@import "modules/profile-card/profile-card-two";
+
+// PROPERTY DETAILS
+@import "pages/property-details-page";
+
+// ICON BOX
+@import "modules/icon-box/icon-box-one";
+
+
+// UNIQUE MODULE LIST
 @import "modules/comment-form";
 
-// 28. Team member  
 
-// 29. Portfolio 
 
-// Pages
-@import "pages/pages";
+// PAGES
+// PROPERTY DETAILS
+@import "pages/property-details-page";
 
-// 30. About Page
-@import "pages/about-page";
 
-// 31. Contact Page
-@import "pages/contact-page";
 
-// 32. Pricing Page
-@import "pages/pricing-page";
 
-// 33. Service Page
-@import "pages/service-page";
-
-// 34. Team Page
-@import "pages/team-member";
-
-// 35. Blog Page
-@import "pages/blog-page";
 // 36. Footer
-@import "partials/footer";  
-@import "masirul";
-
-
-// Service-area
-
-// Analysis-area 
-
-// Counter-area 
-
-// Growth-area 
-
-// Project-area
-
-// Image-card 
+@import "partials/footer";   

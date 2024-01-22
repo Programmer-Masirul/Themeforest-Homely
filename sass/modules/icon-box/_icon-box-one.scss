@@ -6,7 +6,7 @@
             text-align: center;
 
             .icons{
-                margin-bottom: 25px;
+                margin: 20px 0px 10px;
 
                 a{
       
@@ -14,12 +14,18 @@
                     margin-right: 5px;
                     padding: 8px;
                     border-radius: 50%;
+                    font-size: 15px;
                     color: $white;
                     background: $gray;
                     @include transition;
                     &:hover{
                       color: $white;
                       background: $primary-color;
+                    }
+
+                    @include sm{
+                      font-size: 12px;
+                      padding: 5px;
                     }
                   }
                 }
