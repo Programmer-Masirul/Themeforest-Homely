@@ -627,17 +627,28 @@
 
     <!-- =================
       START FOOTER SECTION
-    =================== -->
-    <footer class="footer ">
-        <div class="footer-sec" style="background-image: url(images/section-bg/footer-map-shape.png);">
+    =================== --> 
+    <footer class="footer"  style="background-image: url(images/section-bg/footer-map-shape.png);background-repeat: no-repeat;background-position: fixed;background-size:cover;">
+        <div class="footer-bg"> 
+        </div>
+        <div class="footer-sec">
             <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-xxl-4 col-xl-4 col-lg-3 col-md-6">
+                <div class="row">
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
                         <div class="footer-widget">
                             <div class="footer-widget-info">
                                 <div class="footer-logo">
-                                    <a href="index.html"><img src="images/logo/footer-logo-white.png"
-                                            alt="Footer Logo" /></a>
+                                    <a href="index.html">
+                                        <div class="logo-section">
+                                            <div>
+                                                <img src="images/logo/logo.png"
+                                                    alt="Footer Logo" />
+                                            </div> 
+                                        </div>
+                                    </a>
+                                    <p>
+                                        The world’s first and largest real estate services.
+                                    </p>
                                 </div>
                                 <div class="footer-widget-contact">
                                     <div class="footer-contact">
@@ -647,7 +658,7 @@
                                                     <i class="fa-solid fa-location-dot"></i>
                                                 </div>
                                                 <div class="contact-text">
-                                                    <span>15205 North Kierland Blvd.<br />Suite 100</span>
+                                                    <span>22/1 Bardeshi, Amin Bazar<br />Dhaka 1348</span>
                                                 </div>
                                             </li>
                                             <li>
@@ -656,7 +667,7 @@
                                                 </div>
                                                 <div class="contact-text">
                                                     <a
-                                                        href="mailto:hello@transico.com"><span>hello@homely.com</span></a>
+                                                        href="mailto:hello@transico.com"><span>hello@transico.com</span></a>
                                                 </div>
                                             </li>
                                             <li>
@@ -670,16 +681,11 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="social-profile">
-                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xxl-2 col-xl-4 col-lg-3 col-md-6">
+
+                    <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-6">
                         <div class="footer-widget widget_nav_menu">
                             <h2 class="footer-widget-title">Category</h2>
                             <ul class="menu">
@@ -692,7 +698,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xxl-2 col-xl-4 col-lg-3 col-md-6">
+                    <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-6">
                         <div class="footer-widget widget_nav_menu">
                             <h2 class="footer-widget-title">Location</h2>
                             <ul class="menu">
@@ -705,7 +711,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xxl-2 col-xl-4 col-lg-3 col-md-6">
+                    <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-6">
                         <div class="footer-widget widget_nav_menu">
                             <h2 class="footer-widget-title">Useful links</h2>
                             <ul class="menu">
@@ -717,36 +723,74 @@
                         </div>
                     </div>
 
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="copyright-text">
-                            <p>Designed by &copy; <a href="https://triplebytesoft.com/">Tiplebytesoft</a></p>
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+                        <div class="footer-widget widget_nav_menu">
+                            <h2 class="footer-widget-title">Newsletter</h2>
+                            <div class="newsletter-card-wrapper">
+                                <div class="newsletter-card">
+                                    <form>
+                                        <input type="email" placeholder="Enter Email Adress" required>
+                                    </form>
+
+                                    <div class="icon-content style-one">
+                                        <div class="icon"><i class="fa-solid fa-check"></i></div>
+                                        <div class="content">I agree to all your terms and policies</div>
+                                    </div>
+
+                                    <div class="icon-box-wrapper style-one">
+                                        <div class="icon-box">
+                                            <div class="icons">
+                                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div> 
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="footer-bottom-menu">
-                            <ul>
-                                <li>
-                                    <a href="#">Terms & Condition</a>
-                                </li>
-                                <li>
-                                    <a href="#">Privacy Policy</a>
-                                </li>
-                                <li>
-                                    <a href="#">Legal</a>
-                                </li>
-                            </ul>
+                    <div class="footer-bottom-area">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="copyright-text">
+                                        <p> <a href="#">© 2023 website_stock . All Rights Reserved.</a></p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4"> 
+                                    <div class="icon-box-wrapper style-one">
+                                        <div class="icon-box">
+                                            <div class="icons">
+                                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="footer-bottom-menu">
+                                        <ul>
+                                            <li>
+                                                <a href="#">Terms of Use</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Privacy Policy</a>
+                                            </li> 
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </div> 
             </div>
         </div>
-    </footer>
+    </footer> 
     <!-- =================
       END FOOTER SECTION
     =================== -->
@@ -761,36 +805,26 @@
     </div>
     <!-- =================
       END SCROLL UP SECTION
-    =================== --> 
-    <script src="js/jquery.min.js"></script>
-
-    <!-- Include GSAP library -->
-    <script src="js/gsap.js"></script>
-    <!-- Include TweenMax -->
-    <script src="js/gsap.min.js"></script>
+    =================== -->
     
-    <!-- Owl Carousel JS File -->
-    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.nice-select.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
-    <!-- aos js -->  
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
     <script src="js/waypoints.js"></script>
     <script src="js/jquery.meanmenu.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/inview.min.js"></script>
     <script src="js/wow.js"></script>
     <script src="js/tilt.jquery.js"></script>
-    <script src="js/custom.js"></script>
-
-  <script>
-  </script>
-
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/slideshow.js"></script>
+    <script src="js/custom.js"></script> 
+    <script>
+      AOS.init(); 
+    </script> 
 
 </body>
 

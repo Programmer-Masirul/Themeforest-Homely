@@ -6,89 +6,163 @@
  * 
  */
 /* Table of contents
-========================= 
+=========================
+
+
+
 
 ===========================*/
-/* Theme Default CSS */
+// THEME DEFAULT
 @import "variables";
 @import "mixin";
 @import "partials/theme-default";
 @import "partials/default-spacing"; 
 @import "keyframes";
 
-// 1.Preloader
-@import "modules/preeloader";
+// 1.PRELOADER 
 
-// 2.Scrollup
-@import "partials/scrollup";
+// 2.SCROLL UP 
 
-// 3.Nav Menu
-@import "partials/header";  
-@import "partials/menu-sidebar";
-
-// BREADCUMB
-@import "modules/breadcrumb/breadcrumb";
+// 3.NAV MENU 
  
-// Home 1  
-@import "modules/property/find-property";
-@import "modules/featured/featured";
-@import "modules/counter/counter";
 
-// Faq
-@import "modules/subscribe";
 
-// Team
-@import "modules/team/team-member"; 
+// MODULES START
+// 4.ACCORDION
+@import "modules/accordion/_accordion-style-one"; 
+@import "modules/accordion/_accordion";
 
-// video popup
-@import "modules/video-popup";
+// 5.ICON CARD
+@import "modules/icon-card/_icon-card-four"; 
 
-// ICON content
-@import "modules/icon-content/icon-content";
+// 6.BREADCUMB
+@import "modules/breadcrumb/_breadcrumb";
 
-// RECENT POST BOX
-@import "modules/recent-post-box/recent-post-box";
+// 7.CARD-BOX   
+@import "modules/card-box/card-box-one";
+@import "modules/card-box/card-box-two";
+@import "modules/card-box/card-box-three";
 
-// CATEGORIES
+// 8.CATEGORIES
 @import "modules/categories/categories";
 
-// TAG AREA
-@import "modules/tags/tag-area";
+// 9.COMMENT-BOX
+@import "modules/comment-box/comment-box";
 
-// CARD BOX
-@import "modules/card-box/card-box";
+// 10.COUNTER
+@import "modules/counter/counter";
 
-// SIGN IN MODAL
+// 11.FEATURED
+@import "modules/featured/featured";
+
+// 12.ICON-BOX
+@import "modules/icon-box/_icon-box-one";
+
+// 13.ICON-CONTENT
+@import "modules/icon-content/icon-content";
+
+// 14.IMAGE-BOX
+@import "modules/image-box/image-box";
+
+// 15.PROFILE-CARD
+@import "modules/profile-card/_profile-card-one";
+@import "modules/profile-card/_profile-card-two";
+
+// 16.PROPERTY
+@import "modules/property/_find-property";
+
+// 17.RECENT POST BOX
+@import "modules/recent-post-box/recent-post-box";
+
+// 18.SIGN IN
 @import "modules/sign-in/sign-in";
 
-// PAGINATION
-@import "modules/pagination";
+// 19.TAGS
+@import "modules/tags/tag-area";
 
-// IMAGE SLIDESHOW
+// 20.TEAM
+@import "modules/team/team-member";
+
+// CARD WRAPPER    
+
+// ISOTOP FILTERING 
+@import "modules/isotop-filtering";
+
+
+
+
+
+// UNIQUE AND INDIVIDUAL MODULES LIST
+// 21.COMMENT FORM
+@import "modules/_comment-form";
+
+// 22.COUNTER 
+@import "modules/counter-one";
+// 23.HISTORY AREA 
+@import "modules/history-area";
+// 24.IMAGE SLIDESHOW
 @import "modules/image-slideshow";
 
-// PROFILE CARD
-@import "modules/profile-card/profile-card-one";
-@import "modules/profile-card/profile-card-two";
+// 25.NAV TABS
+@import "modules/nav-tabs";
 
-// PROPERTY DETAILS
-@import "pages/property-details-page";
+// 26.NEWSLETTER
+@import "modules/newsletter-card-wrapper";
 
-// ICON BOX
-@import "modules/icon-box/icon-box-one";
+// 27.PAGINATION
+@import "modules/pagination";
+
+// 28.PREELOADER
+@import "modules/_preeloader";
+
+// 29.SERVICE 
+
+// 30.SUBSCRIBE
+@import "modules/subscribe";
+
+// 31.TITLE SECTION
+@import "modules/title-section";
+
+// 32.VIDEO POPUP
+@import "modules/video-popup"; 
+// MODULES END
 
 
-// UNIQUE MODULE LIST
-@import "modules/comment-form";
+
+
+// PAGES START
+// 33.PROPERTY DETAILS 
+@import "pages/blog-details-page";
+@import "pages/_property-details-page"; 
+// PAGES END
+
+// PARTIALS START
+// 34.DEFAULT SPACING
+@import "partials/default-spacing"; 
+
+// 35.FOOTER
+@import "partials/footer";
+
+// 36.HEADER
+@import "partials/header";
+
+// 37.SCROLL UP
+@import "partials/scrollup";
+
+// 38.THEME DEFAULT 
+@import "partials/theme-default";
+// PARTIALS END
 
 
 
-// PAGES
-// PROPERTY DETAILS
-@import "pages/property-details-page";
+// UNIQUE SASS FILES START
+// 39.KEYFRAMES
+@import "keyframes";
 
+// 40.MIXINS
+@import "mixin";
 
+// 41.VARIABLES
+@import "variables";
 
-
-// 36. Footer
-@import "partials/footer";   
+// UNIQUE SASS FILES END 
