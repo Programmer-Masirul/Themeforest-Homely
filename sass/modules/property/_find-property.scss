@@ -2,6 +2,7 @@
 
     .card-wrapper{
         border-radius: 20px; 
+        @include transition;
         .card-image{
             position: relative; 
             .img{

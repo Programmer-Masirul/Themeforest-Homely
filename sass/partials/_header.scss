@@ -17,6 +17,10 @@
     font-size: 15px;
     font-weight: 400;
 
+    @include xl{
+      font-size: 14px;
+    }
+
     @include lg{
       font-size: 11px;
     }

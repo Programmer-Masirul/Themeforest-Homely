@@ -7,178 +7,170 @@
  */
 /* Table of contents
 =========================
-1.Preloader
-2.Scrollup
-4.Nav Menu CSS
-3.Slider Section
-5.Info Card
-6.Icon Card
-7. About Image Card
-8. About Info Card
-9. Promotional Card
-10. Video Popup Card
-11. Counter Card
-12. Process Step Card
-13. Testimonial Card
-14. Accordion Card
-15. Client Logo Card
-16. Post Card
-17. Skill Progress Card
-18. Price Card
-19. Call To Action Card
-20. Title Card
-21. Breadcrumb
-22. Paginations
-23. Timeline Card
-24. Project Details Page
-25. Sidebar
-26. Comment List
-27. Comment Form
-28. Team member
-29. Portfolio
-30. About Page
-31. Contact Page
-32. Pricing Page
-33. Service Page
-34. Team Page
-35. Blog Page
-36. Footer
+
+
 
 
 ===========================*/
-/* Theme Default CSS */
+// THEME DEFAULT
 @import "variables";
 @import "mixin";
 @import "partials/theme-default";
 @import "partials/default-spacing"; 
 @import "keyframes";
 
-// 1.Preloader
-@import "modules/preeloader";
+// 1.PRELOADER 
 
-// 2.Scrollup
-@import "partials/scrollup";
+// 2.SCROLL UP 
 
-// 3.Nav Menu
-@import "partials/header"; 
-@import "modules/meanmenu";
-@import "partials/menu-sidebar";
-
-// 4.Intro Section
-@import "modules/intro/intro-style-one"; 
+// 3.NAV MENU 
+ 
 
 
-// 5.Featured Card 
-@import "modules/cards/card-wrapper-style-one";
-@import "modules/cards/card-wrapper-style-two";
+// MODULES START
+// 4.ACCORDION
+@import "modules/accordion/_accordion-style-one";
+@import "modules/accordion/_accordion-style-two";
+@import "modules/accordion/_accordion";
 
-// Blog card
+// 5.BLOG
+@import "modules/blog/blog";
+@import "modules/blog/_blog-details";
 
-// 6.Icon Card
-@import "modules/icon-card/icon-card";
-@import "modules/icon-card/icon-card-two";
-@import "modules/icon-card/icon-card-three";
-@import "modules/icon-card/icon-card-four";
+// 6.BREADCUMB
+@import "modules/breadcrumb/_breadcrumb";
 
-// 7. About Image Card   
+// 7.CARD-BOX
+@import "modules/card-box/card-box-one";
+@import "modules/card-box/card-box-two";
+@import "modules/card-box/card-box-three";
 
-// 8. About Info Card   
+// 8.CATEGORIES
+@import "modules/categories/categories";
 
-// 9. Promotional Card
+// 9.COMMENT-BOX
+@import "modules/comment-box/comment-box";
 
-// 10. Video Popup Card
-@import "modules/video-popup-card";
+// 10.COUNTER
+@import "modules/counter/counter";
 
-// 11. Counter Card 
+// 11.FEATURED
+@import "modules/featured/featured";
 
-// 12. Process Step Card
+// 12.ICON-BOX
+@import "modules/icon-box/_icon-box-one";
 
-// 13. Testimonial Card  
+// 13.ICON-CONTENT
+@import "modules/icon-content/icon-content";
 
-// 14. Accordion Card
-@import "modules/accordion/accordion"; 
-@import "modules/accordion/accordion-style-one"; 
+// 14.IMAGE-BOX
+@import "modules/image-box/image-box";
 
-// 15. Client Logo Card  
+// 15.PROFILE-CARD
+@import "modules/profile-card/_profile-card-one";
+@import "modules/profile-card/_profile-card-two";
 
-// 16. Counter Card   
-@import "modules/counter-one";
+// 16.PROPERTY
+@import "modules/property/_find-property";
+
+// 17.RECENT POST BOX
+@import "modules/recent-post-box/recent-post-box";
+
+// 18.SIGN IN
+@import "modules/sign-in/sign-in";
+
+// 19.TAGS
+@import "modules/tags/tag-area";
+
+// 20.TEAM
+@import "modules/team/team-member";
+
+// CARD WRAPPER
+@import "modules/card-wrapper/card-wrapper-style-one";
+@import "modules/card-wrapper/card-wrapper-style-two";
+@import "modules/card-wrapper/card-wrapper-style-three";
+@import "modules/card-wrapper/card-wrapper-style-four";
+
+// ISOTOP FILTERING
+@import "modules/isotop-filtering";
 
 
-// 17. Skill Progress Card
-@import "modules/skill-progress";
-
-// 18. Price Card
-@import "modules/price-card";
-
-// 19. Call To Action Card
-@import "modules/call-to-action-card";
-@import "modules/triangle-shape-card";
 
 
-// 20. Title Card
-@import "modules/title-section";
 
-// 21. Breadcrumb
-@import "modules/breadcrumb/breadcrumb";
+// UNIQUE AND INDIVIDUAL MODULES LIST
+// 21.COMMENT FORM
+@import "modules/_comment-form";
 
-// 22. Paginations
-@import "modules/paginations";
+// 22.COUNTER
+@import "modules/counter";
+
+// 23.HISTORY AREA
+@import "modules/history-area";
+
+// 24.IMAGE SLIDESHOW
+@import "modules/image-slideshow";
+
+// 25.NAV TABS
 @import "modules/nav-tabs";
 
-// 23. Timeline Card
-@import "modules/time-card";
+// 26.NEWSLETTER
+@import "modules/newsletter-card-wrapper";
 
-// 24. Project Details Page
-@import "pages/project-details";
-@import "modules/list-item";
+// 27.PAGINATION
+@import "modules/pagination";
 
-// 25. Sidebar
-@import "partials/sidebar"; 
+// 28.PREELOADER
+@import "modules/_preeloader";
 
-// 26. Comment List
-@import "modules/comment-list";
+// 29.SERVICE
+@import "modules/service";
 
-// 27. Comment Form
-@import "modules/comment-form";
+// 30.SUBSCRIBE
+@import "modules/subscribe";
 
-// 28. Team member  
+// 31.TITLE SECTION
+@import "modules/title-section";
 
-// 29. Portfolio 
-
-// Pages
-@import "pages/pages";
-
-// 30. About Page
-@import "pages/about-page";
-
-// 31. Contact Page
-@import "pages/contact-page";
-
-// 32. Pricing Page
-@import "pages/pricing-page";
-
-// 33. Service Page
-@import "pages/service-page";
-
-// 34. Team Page
-@import "pages/team-member";
-
-// 35. Blog Page
-@import "pages/blog-page";
-// 36. Footer
-@import "partials/footer";  
-@import "masirul";
+// 32.VIDEO POPUP
+@import "modules/video-popup"; 
+// MODULES END
 
 
-// Service-area
 
-// Analysis-area 
 
-// Counter-area 
+// PAGES START
+// 33.PROPERTY DETAILS
+@import "pages/property-details";
+// PAGES END
 
-// Growth-area 
+// PARTIALS START
+// 34.DEFAULT SPACING
+@import "partials/default-spacing"; 
 
-// Project-area
+// 35.FOOTER
+@import "partials/footer";
 
-// Image-card 
+// 36.HEADER
+@import "partials/header";
+
+// 37.SCROLL UP
+@import "partials/scrollup";
+
+// 38.THEME DEFAULT 
+@import "partials/theme-default";
+// PARTIALS END
+
+
+
+// UNIQUE SASS FILES START
+// 39.KEYFRAMES
+@import "keyframes";
+
+// 40.MIXINS
+@import "mixin";
+
+// 41.VARIABLES
+@import "variables";
+
+// UNIQUE SASS FILES END 
