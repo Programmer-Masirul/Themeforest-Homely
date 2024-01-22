@@ -51,12 +51,22 @@ h1 {
   font-size: 80px;
   line-height: 110px;
   font-weight: 600;
+
+  @include md{ 
+    font-size: 70x;
+    line-height: 100px;
+  }
 }
 
 h2 {
   font-size: 40px;
   line-height: 60px;
   font-weight: 600;
+
+  @include md{ 
+    font-size: 35px;
+    line-height: 50px;
+  }
 }
 
 h3 {
