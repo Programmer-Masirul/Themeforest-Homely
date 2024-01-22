@@ -1,0 +1,168 @@
+/**
+ * Stylesheet:  style.css
+ * Theme:       TBSHomely
+ * Version:     1.0
+ * Author:     	Triplebytes
+ * 
+ */
+/* Table of contents
+=========================
+
+
+
+
+===========================*/
+// THEME DEFAULT
+@import "variables";
+@import "mixin";
+@import "partials/theme-default";
+@import "partials/default-spacing"; 
+@import "keyframes";
+
+// 1.PRELOADER 
+
+// 2.SCROLL UP 
+
+// 3.NAV MENU 
+ 
+
+
+// MODULES START
+// 4.ACCORDION
+@import "modules/accordion/_accordion-style-one"; 
+@import "modules/accordion/_accordion";
+
+// 5.ICON CARD
+@import "modules/icon-card/_icon-card-four"; 
+
+// 6.BREADCUMB
+@import "modules/breadcrumb/_breadcrumb";
+
+// 7.CARD-BOX   
+@import "modules/card-box/card-box-one";
+@import "modules/card-box/card-box-two";
+@import "modules/card-box/card-box-three";
+
+// 8.CATEGORIES
+@import "modules/categories/categories";
+
+// 9.COMMENT-BOX
+@import "modules/comment-box/comment-box";
+
+// 10.COUNTER
+@import "modules/counter/counter";
+
+// 11.FEATURED
+@import "modules/featured/featured";
+
+// 12.ICON-BOX
+@import "modules/icon-box/_icon-box-one";
+
+// 13.ICON-CONTENT
+@import "modules/icon-content/icon-content";
+
+// 14.IMAGE-BOX
+@import "modules/image-box/image-box";
+
+// 15.PROFILE-CARD
+@import "modules/profile-card/_profile-card-one";
+@import "modules/profile-card/_profile-card-two";
+
+// 16.PROPERTY
+@import "modules/property/_find-property";
+
+// 17.RECENT POST BOX
+@import "modules/recent-post-box/recent-post-box";
+
+// 18.SIGN IN
+@import "modules/sign-in/sign-in";
+
+// 19.TAGS
+@import "modules/tags/tag-area";
+
+// 20.TEAM
+@import "modules/team/team-member";
+
+// CARD WRAPPER    
+
+// ISOTOP FILTERING 
+@import "modules/isotop-filtering";
+
+
+
+
+
+// UNIQUE AND INDIVIDUAL MODULES LIST
+// 21.COMMENT FORM
+@import "modules/_comment-form";
+
+// 22.COUNTER 
+@import "modules/counter-one";
+// 23.HISTORY AREA 
+@import "modules/history-area";
+// 24.IMAGE SLIDESHOW
+@import "modules/image-slideshow";
+
+// 25.NAV TABS
+@import "modules/nav-tabs";
+
+// 26.NEWSLETTER
+@import "modules/newsletter-card-wrapper";
+
+// 27.PAGINATION
+@import "modules/pagination";
+
+// 28.PREELOADER
+@import "modules/_preeloader";
+
+// 29.SERVICE 
+
+// 30.SUBSCRIBE
+@import "modules/subscribe";
+
+// 31.TITLE SECTION
+@import "modules/title-section";
+
+// 32.VIDEO POPUP
+@import "modules/video-popup"; 
+// MODULES END
+
+
+
+
+// PAGES START
+// 33.PROPERTY DETAILS 
+@import "pages/blog-details-page";
+@import "pages/_property-details-page"; 
+// PAGES END
+
+// PARTIALS START
+// 34.DEFAULT SPACING
+@import "partials/default-spacing"; 
+
+// 35.FOOTER
+@import "partials/footer";
+
+// 36.HEADER
+@import "partials/header";
+
+// 37.SCROLL UP
+@import "partials/scrollup";
+
+// 38.THEME DEFAULT 
+@import "partials/theme-default";
+// PARTIALS END
+
+
+
+// UNIQUE SASS FILES START
+// 39.KEYFRAMES
+@import "keyframes";
+
+// 40.MIXINS
+@import "mixin";
+
+// 41.VARIABLES
+@import "variables";
+
+// UNIQUE SASS FILES END 
