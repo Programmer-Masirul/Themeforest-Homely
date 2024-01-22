@@ -11,11 +11,41 @@
       padding-bottom: 40px;
   } 
   
+  // Property video area
+  .property-video-area {
+    .property-video-box{ 
+      padding: 10px 20px 30px; 
+      background: $white;
+      box-shadow: $box-shadow;
+
+      .property-video-info-box{
+
+        .property-video{
+          width:100%;
+          height: 450px;
+
+          @include xl{
+            height: 410px;
+          }
+
+          @include md{
+            height: 350px;
+          }
+
+          @include sm{
+            height: 280px;
+          }
+        }
+      }
+    }
+  }
+
   // Property heading area
   .property-heading-area{
   
     .heading-content-icon{
       padding: 10px 20px 30px;
+      margin-top: 50px;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -134,12 +164,28 @@
             margin-right: 7px;
             font-size: 14px;
             font-weight: 600;
+
+            @include sm{
+              font-size: 14px;
+            }
+
+            @include rmaxwd(476){
+              font-size: 13px;
+            }
           }
     
           .details{ 
             font-family: $body-font;
             font-size: 14px;
             font-weight: 400;
+
+            @include sm{
+              font-size: 14px;
+            }
+
+            @include rmaxwd(476){
+              font-size: 13px;
+            }
           }
          }
         }
@@ -173,12 +219,28 @@
             margin-right: 7px;
             font-size: 14px;
             font-weight: 600;
+
+            @include sm{
+              font-size: 14px;
+            }
+
+            @include rmaxwd(476){
+              font-size: 13px;
+            }
           }
     
           .details{ 
             font-family: $body-font;
             font-size: 14px;
             font-weight: 400;
+
+            @include sm{
+              font-size: 14px;
+            }
+
+            @include rmaxwd(476){
+              font-size: 13px;
+            }
           }
          }
         }
@@ -186,4 +248,65 @@
   
     }
   }
+
+  // Floor plan area
+  .floor-plan-area {
+    .floor-plan-box{ 
+      padding: 10px 20px 30px;
+      margin-top: 50px;
+      background: $white;
+      box-shadow: $box-shadow;
+
+      .floor-plan-info-box{
+
+        .floor-plan{
+          width:100%;
+          height: 450px;
+
+          @include xl{
+            height: 410px;
+          }
+
+          @include md{
+            height: 350px;
+          }
+
+          @include sm{
+            height: 280px;
+          }
+        }
+      }
+    }
+  }
+
+  // Map area
+  .map-area {
+    .map-box{ 
+      padding: 10px 20px 30px;
+      margin-top: 50px;
+      background: $white;
+      box-shadow: $box-shadow;
+
+      .map-info-box{
+
+        .map{
+          width:100%;
+          height: 450px;
+
+          @include xl{
+            height: 410px;
+          }
+
+          @include md{
+            height: 350px;
+          }
+
+          @include sm{
+            height: 280px;
+          }
+        }
+      }
+    }
+  }
+
 }
