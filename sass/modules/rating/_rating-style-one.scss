@@ -1,0 +1,151 @@
+
+.rating{
+    &.style-one{
+        .rating-process{ 
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 15px 0px;
+
+          h6{
+              margin-bottom: 0px;
+              font-size: 25px;
+              font-weight: 300;
+              font-family: $heading-font;
+              color: $text-color;
+      
+      
+              @include sm{
+              font-size: 20px;
+              }
+      
+              @include rmaxwd(476){
+              font-size: 18px;
+              }
+          }
+
+        //   five start
+        &.five-star{ 
+            .percent-fill-area{
+                margin: 0px 15px; 
+                width:60%;  
+                .percent-bg{ 
+                position: relative;
+                background: $gray-30;
+                height: 20px;
+                width: 100%; 
+        
+                .percent-value{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    background: $primary-color;
+                    height: 20px;
+                    width: 90%; 
+        
+                }
+                }
+            }
+        }
+
+        //   four start
+        &.four-star{ 
+            .percent-fill-area{
+                margin: 0px 15px; 
+                width:60%;  
+                .percent-bg{ 
+                  position: relative;
+                  background: $gray-30;
+                  height: 20px;
+                  width: 100%; 
+        
+                  .percent-value{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    background: $primary-color;
+                    height: 20px;
+                    width: 80%; 
+        
+                  }
+                }
+              }
+          }
+
+        //   three start
+        &.three-star{ 
+            .percent-fill-area{
+                margin: 0px 15px; 
+                width:60%;  
+                .percent-bg{ 
+                position: relative;
+                background: $gray-30;
+                height: 20px;
+                width: 100%; 
+        
+                .percent-value{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    background: $primary-color;
+                    height: 20px;
+                    width: 70%; 
+        
+                }
+                }
+            }
+        }
+
+        //   two start
+        &.two-star{ 
+            .percent-fill-area{
+                margin: 0px 15px; 
+                width:60%;  
+                .percent-bg{ 
+                  position: relative;
+                  background: $gray-30;
+                  height: 20px;
+                  width: 100%; 
+        
+                  .percent-value{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    background: $primary-color;
+                    height: 20px;
+                    width: 60%; 
+        
+                  }
+                }
+              }
+          }
+
+        //   one start
+        &.one-star{ 
+            .percent-fill-area{
+                margin: 0px 15px; 
+                width:60%;  
+                .percent-bg{ 
+                  position: relative;
+                  background: $gray-30;
+                  height: 20px;
+                  width: 100%; 
+        
+                  .percent-value{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    background: $primary-color;
+                    height: 20px;
+                    width: 50%; 
+        
+                  }
+                }
+              }
+          }
+    
+        }
+    
+      }
+
+}
