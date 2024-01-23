@@ -64,6 +64,7 @@
 
 // 14.IMAGE-BOX
 @import "modules/image-box/image-box";
+@import "modules/image-box/image-box-style-two";
 
 // 15.PROFILE-CARD
 @import "modules/profile-card/_profile-card-one";
@@ -127,9 +128,13 @@
 // 32.VIDEO POPUP
 @import "modules/video-popup"; 
 
-// RATING
+// RATING BOX
 @import "modules/rating/rating-style-one";
 @import "modules/rating/rating-style-two";
+
+// REVIEW BOX
+@import "modules/review-box/review-box-one";
+
 // MODULES END
 
 

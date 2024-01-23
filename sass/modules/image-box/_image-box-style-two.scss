@@ -1,0 +1,42 @@
+.recent-image-box{
+    &.style-two{
+        .recent-comment-box{ 
+            margin-right: 30px;
+            .commenter{
+              font-size: 15px;
+              font-family: $body-font;
+              font-weight: 500; 
+        
+              @include lg{ 
+              font-size: 14px;
+              }
+        
+              @include sm{
+                font-size: 13px;
+              }
+            }      
+            
+            .comment-content{ 
+                display: flex; 
+            
+                .content{
+                font-size: 13px;
+                font-family: $body-font;
+                font-weight: 300; 
+            
+                @include lg{ 
+                font-size: 12px;
+                }
+            
+                @include sm{
+                  font-size: 11px;
+                }
+                }
+              }
+        
+          }
+    }
+
+}
+
+      

@@ -1,11 +1,12 @@
 
 .rating{
     &.style-one{
+      margin: 0px 0px 15px;
         .rating-process{ 
           display: flex;
           align-items: center;
           justify-content: center;
-          margin: 15px 0px;
+          margin: 12px 0px 0px;
 
           h6{
               margin-bottom: 0px;
@@ -143,9 +144,12 @@
                 }
               }
           }
-    
         }
     
+    
+        @include rmaxwd(992) {
+          margin: 30px 0px 30px;
+        }
       }
 
 }

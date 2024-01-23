@@ -3471,6 +3471,43 @@ input.theme-btn {
   }
 }
 
+.recent-image-box.style-two .recent-comment-box {
+  margin-right: 30px;
+}
+.recent-image-box.style-two .recent-comment-box .commenter {
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+@media (max-width: 1199.98px) {
+  .recent-image-box.style-two .recent-comment-box .commenter {
+    font-size: 14px;
+  }
+}
+@media (max-width: 767.98px) {
+  .recent-image-box.style-two .recent-comment-box .commenter {
+    font-size: 13px;
+  }
+}
+.recent-image-box.style-two .recent-comment-box .comment-content {
+  display: flex;
+}
+.recent-image-box.style-two .recent-comment-box .comment-content .content {
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+@media (max-width: 1199.98px) {
+  .recent-image-box.style-two .recent-comment-box .comment-content .content {
+    font-size: 12px;
+  }
+}
+@media (max-width: 767.98px) {
+  .recent-image-box.style-two .recent-comment-box .comment-content .content {
+    font-size: 11px;
+  }
+}
+
 .profile-card.style-one .profile-card-wrapper {
   margin-top: 50px;
   padding: 100px 30px;
@@ -3519,6 +3556,16 @@ input.theme-btn {
 .profile-card.style-one .profile-card-wrapper .social-profile .social-links a i:hover {
   transform: rotate(360deg);
   color: #f2c94c;
+}
+@media (max-width: 1199.98px) {
+  .profile-card.style-one .profile-card-wrapper {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 992px) {
+  .profile-card.style-one .profile-card-wrapper {
+    margin-top: 30px;
+  }
 }
 
 .find-property .card-wrapper {
@@ -5256,11 +5303,14 @@ input.theme-btn {
   }
 }
 
+.rating.style-one {
+  margin: 0px 0px 15px;
+}
 .rating.style-one .rating-process {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 15px 0px;
+  margin: 12px 0px 0px;
 }
 .rating.style-one .rating-process h6 {
   margin-bottom: 0px;
@@ -5368,6 +5418,73 @@ input.theme-btn {
   background: #f2c94c;
   height: 20px;
   width: 50%;
+}
+@media (max-width: 992px) {
+  .rating.style-one {
+    margin: 30px 0px 30px;
+  }
+}
+
+.recent-reviews h2 {
+  margin: 20px 0px;
+}
+.recent-reviews .review-box-wrapper.style-one {
+  margin: 15px 0px;
+}
+.recent-reviews .review-box-wrapper.style-one .review-box {
+  margin-right: 30px;
+}
+.recent-reviews .review-box-wrapper.style-one .review-box .reviewer {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.recent-reviews .review-box-wrapper.style-one .review-box .reviewer .reviewer-content {
+  margin-right: 30px;
+}
+.recent-reviews .review-box-wrapper.style-one .review-box .reviewer .reviewer-content .name {
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.recent-reviews .review-box-wrapper.style-one .review-box .reviewer .reviewer-content .review-date {
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+.recent-reviews .review-box-wrapper.style-one .review-box .reviewer .reviewers-star .active-start {
+  color: #f2c94c;
+}
+.recent-reviews .review-box-wrapper.style-one .review-box .reviewer .reviewers-star .deactive-start {
+  color: #393d48;
+}
+@media (max-width: 1199.98px) {
+  .recent-reviews .review-box-wrapper.style-one .review-box .reviewer {
+    font-size: 14px;
+  }
+}
+@media (max-width: 767.98px) {
+  .recent-reviews .review-box-wrapper.style-one .review-box .reviewer {
+    font-size: 13px;
+  }
+}
+.recent-reviews .review-box-wrapper.style-one .review-box .review-content {
+  display: flex;
+}
+.recent-reviews .review-box-wrapper.style-one .review-box .review-content .review {
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+@media (max-width: 1199.98px) {
+  .recent-reviews .review-box-wrapper.style-one .review-box .review-content .review {
+    font-size: 12px;
+  }
+}
+@media (max-width: 767.98px) {
+  .recent-reviews .review-box-wrapper.style-one .review-box .review-content .review {
+    font-size: 11px;
+  }
 }
 
 .blog-details-area .sidebar input[type=text] {
@@ -5631,6 +5748,7 @@ input.theme-btn {
   margin-right: 7px;
   font-size: 14px;
   font-weight: 600;
+  color: #f2c94c;
 }
 @media (max-width: 767.98px) {
   .property-details .facilities-area .facility-box .facility-info-box .facility-info .icon-details .icon {
@@ -5737,40 +5855,56 @@ input.theme-btn {
     margin-top: 30px;
   }
 }
-.property-details .customer-reviews-area .summary-and-reviews-box {
+.property-details .customer-reviews-area .summary-and-customer-reviews {
   padding: 10px 20px 30px;
   margin-top: 50px;
   background: #ffffff;
   box-shadow: 0 3px 10px rgba(242, 242, 242, 0.801);
 }
-.property-details .customer-reviews-area .summary-and-reviews-box .review-summary .rating-area .star {
+.property-details .customer-reviews-area .summary-and-customer-reviews .review-summary .rating-area .star {
   padding: 40px 60px;
   background: #F5F5F5;
   text-align: center;
 }
-.property-details .customer-reviews-area .summary-and-reviews-box .review-summary .rating-area .star h2 {
+.property-details .customer-reviews-area .summary-and-customer-reviews .review-summary .rating-area .star h2 {
   font-size: 70px;
   font-weight: 500;
   font-family: "Teko", sans-serif;
   color: #151515;
 }
-.property-details .customer-reviews-area .summary-and-reviews-box .review-summary .rating-area .star i {
+.property-details .customer-reviews-area .summary-and-customer-reviews .review-summary .rating-area .star i {
   color: #f2c94c;
 }
-.property-details .customer-reviews-area .summary-and-reviews-box .review-summary .rating-area .star h6 {
+.property-details .customer-reviews-area .summary-and-customer-reviews .review-summary .rating-area .star h6 {
   font-size: 15px;
   font-weight: 300;
   font-family: "Montserrat", sans-serif;
   color: #666666;
 }
 @media (max-width: 767.98px) {
-  .property-details .customer-reviews-area .summary-and-reviews-box .review-summary .rating-area .star h6 {
+  .property-details .customer-reviews-area .summary-and-customer-reviews .review-summary .rating-area .star h6 {
     font-size: 14px;
   }
 }
 @media (max-width: 476px) {
-  .property-details .customer-reviews-area .summary-and-reviews-box .review-summary .rating-area .star h6 {
+  .property-details .customer-reviews-area .summary-and-customer-reviews .review-summary .rating-area .star h6 {
     font-size: 13px;
+  }
+}
+.property-details .customer-reviews-area .summary-and-customer-reviews .customer-reviews h2 {
+  margin: 20px 0px 0px;
+}
+.property-details .customer-reviews-area .summary-and-customer-reviews .customer-reviews .recent-reviews {
+  border-bottom: 1px solid #F5F5F5;
+}
+@media (max-width: 1199.98px) {
+  .property-details .customer-reviews-area .summary-and-customer-reviews {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 992px) {
+  .property-details .customer-reviews-area .summary-and-customer-reviews {
+    margin: 30px 0px;
   }
 }
 

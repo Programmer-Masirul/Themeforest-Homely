@@ -1,0 +1,74 @@
+
+.recent-reviews{
+  h2{
+    margin: 20px 0px;
+  }
+    .review-box-wrapper{
+        &.style-one{
+            margin: 15px 0px;
+
+            .review-box{ 
+                margin-right: 30px;
+                .reviewer{
+                  display: flex;
+                  align-items: start;
+                  justify-content: space-between; 
+                  
+                  .reviewer-content{
+                    margin-right: 30px;
+                    .name{
+                      font-size: 15px;
+                      font-family: $body-font;
+                      font-weight: 500;
+                    }
+
+                    .review-date{
+                      font-size: 13px;
+                      font-family: $body-font;
+                      font-weight: 300;
+
+                    }
+                  }
+
+                  .reviewers-star{
+                    .active-start{
+                      color: $primary-color;
+                    }
+                    .deactive-start{
+                      color: $secondary-color;
+                    }
+                  }
+                  @include lg{ 
+                  font-size: 14px;
+                  }
+            
+                  @include sm{
+                    font-size: 13px;
+                  }
+                }      
+                
+                .review-content{ 
+                    display: flex; 
+                    .review{
+                    font-size: 13px;
+                    font-family: $body-font;
+                    font-weight: 300; 
+                
+                    @include lg{ 
+                    font-size: 12px;
+                    }
+                
+                    @include sm{
+                      font-size: 11px;
+                    }
+                    }
+                  }
+            
+              }
+        }
+    
+    }
+
+}
+
+      
