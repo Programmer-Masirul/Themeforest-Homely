@@ -121,6 +121,23 @@
     font-weight: 400;
     background-color: $white;
     font-family: $body-font !important;
+
+
+  }
+
+  input[type="checkbox"]{
+    padding: 10px;
+    height: 30px;
+    width: 6%;
+    color: $black-300;
+    opacity: 1;
+    border: 1px solid transparent !important;
+    box-shadow: 0px 10px 30px 0px rgba(4, 43, 77, 0.04);
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: $white;
+    font-family: $body-font !important;
   }
 
   *::-webkit-input-placeholder {
@@ -209,6 +226,8 @@
     input[type="checkbox"]::before {
       background-color: transparent;
     }
+
+
 
     .single-input-field {
       p {
