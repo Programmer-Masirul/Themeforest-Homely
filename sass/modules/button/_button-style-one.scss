@@ -3,18 +3,28 @@
         @include transition;
         a{
             padding: 5px 10px;
-            font-family: $body-font;
-            font-size: 13px;
-            font-weight: 500;
+            font-family: $heading-font;
+            font-size: 18px;
+            font-weight: 700;
             color: $text-color;
             background: $white;
             border: 2px solid $gray-30;
             border-radius: 20px;
+            @include transition;
     
             &:hover{
+            font-family: $body-font;
+            font-size: 13px;
+            font-weight: 600;
             color: $white;
             background: $primary-color;
             border: 2px solid $white;
+            }
+
+            @include xl{
+             font-size: 13px;
+             font-weight: 600;
+             padding: 4px 8px;
             }
 
         }
