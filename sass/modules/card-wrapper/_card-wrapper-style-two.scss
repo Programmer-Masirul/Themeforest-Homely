@@ -5,10 +5,16 @@
 
      .card{
         position: relative; 
-        height: 600px;
+        height: 500px;
         width: 100%;
-        border: 1px solid $white;
+        border: none;
+        background: transparent;
         @include transition;
+
+        img{
+            opacity: 70%;
+            @include transition;
+        }
 
         .card-action{
          position: absolute;
@@ -33,6 +39,7 @@
             border: 1px solid $gray-30;
             border-radius: 50%;
             text-align: center;
+            cursor: pointer;
             @include transition;
 
             &:hover{
@@ -43,17 +50,63 @@
 
         .card-body{
          position: absolute;
-         width: 90%;
-         left: 5%;
-         transform: translate(-5%);
+         width: 94%;
+         left: 3%;
+         transform: translate(-3%);
          background: $white;
          box-shadow: $box-shadow;
          transform: translateY(50%);
          @include transition;
+
+         .details{
+
+            .icon-content{
+                display: flex;
+                justify-content: start;
+                margin: 2px 0px;
+
+             .icon{
+                font-size: 12px; 
+                margin-right: 3px;
+
+              i{
+                width: 30px;
+                height: 30px;
+                line-height: 30px;
+                background: transparent;
+                border: 1px solid $gray-30;
+                text-align: center;
+
+                &:hover{
+                 color: $white;
+                 background: $primary-color;
+                 border: 1px solid $white-100;
+                }
+              }
+             }
+
+             .content{
+                font-size: 12px;
+
+             }
+            }
+         }
+
+         .card-title{
+            font-family: $body-font;
+            font-size: 21px;
+            font-weight: 700;
+            color: $secondary-color;
+        
+         }
         }
 
-        &:hover{ 
-        box-shadow: $box-shadow;
+        &:hover{  
+        height: 620px;
+
+        img{
+            opacity: 100%;
+        }
 
          .card-body{
             transform: translateY(90%);
@@ -61,6 +114,25 @@
             width: 100%; 
 
          }
+        }
+
+        @include sm{
+            height: 570px;
+
+            .card-body{
+               transform: translateY(40%); 
+            }
+
+            &:hover{
+             height: 670px;
+
+             .card-body{
+                transform: translateY(72%);
+                left: 0;
+                width: 100%; 
+    
+             }
+            }
         }
      }
     }
