@@ -1,31 +1,32 @@
 .icon-box-wrapper{
 
-    &.style-one{
+    &.style-two{
 
         .icon-box{
-            text-align: left;
+            text-align: center;
 
             .icons{
                 margin: 20px 0px 10px;
  
                   i{
-                    margin-right: 5px;
-                    padding: 8px;
+                    margin-right: 5px; 
                     border-radius: 50%;
+                    color: $text-color;
                     font-size: 15px;
-                    color: $white;
-                    background: $gray;
                     @include transition;
-                    &:hover{
-                      color: $white;
-                      background: $primary-color;
-                    }
 
                     @include sm{
                       font-size: 12px;
                       padding: 5px;
                     }
                   } 
+
+                  &:hover{
+      
+                    i{ 
+                     color: $primary-color; 
+                    }
+                  }
 
             }
         }
