@@ -358,9 +358,11 @@ input.theme-btn {
 
 
 .card-wrapper{
+
+  @include transition;
         
   &:hover{
-      transform: translateY(-10px);
+      transform: translateY(-5px);
   }
 }
 

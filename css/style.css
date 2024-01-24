@@ -406,8 +406,15 @@ input.theme-btn.simple-btn {
   color: #ffffff;
 }
 
+.card-wrapper {
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+}
 .card-wrapper:hover {
-  transform: translateY(-10px);
+  transform: translateY(-5px);
 }
 
 .contact-form-btn {
@@ -5531,6 +5538,101 @@ input.theme-btn {
   }
 }
 
+.card-wrapper {
+  overflow: hidden;
+}
+.card-wrapper.style-two .card {
+  position: relative;
+  height: 600px;
+  width: 100%;
+  border: 1px solid #ffffff;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+}
+.card-wrapper.style-two .card .card-action {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  left: 5%;
+  transform: translate(-5%);
+  background: transparent;
+  transform: translateY(50%);
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+}
+.card-wrapper.style-two .card .card-action i {
+  color: #393d48;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  color: #ffffff;
+  background: transparent;
+  border: 1px solid #F5F5F5;
+  border-radius: 50%;
+  text-align: center;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+}
+.card-wrapper.style-two .card .card-action i:hover {
+  background: #f2c94c;
+}
+.card-wrapper.style-two .card .card-body {
+  position: absolute;
+  width: 90%;
+  left: 5%;
+  transform: translate(-5%);
+  background: #ffffff;
+  box-shadow: 0 3px 10px rgba(242, 242, 242, 0.801);
+  transform: translateY(50%);
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+}
+.card-wrapper.style-two .card:hover {
+  box-shadow: 0 3px 10px rgba(242, 242, 242, 0.801);
+}
+.card-wrapper.style-two .card:hover .card-body {
+  transform: translateY(90%);
+  left: 0;
+  width: 100%;
+}
+
+.theme-button.style-one {
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+}
+.theme-button.style-one a {
+  padding: 5px 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: #666666;
+  background: #ffffff;
+  border: 2px solid #F5F5F5;
+  border-radius: 20px;
+}
+.theme-button.style-one a:hover {
+  color: #ffffff;
+  background: #f2c94c;
+  border: 2px solid #ffffff;
+}
+
 .blog-details-area .sidebar input[type=text] {
   width: 200px;
   box-sizing: border-box;
@@ -8529,8 +8631,15 @@ input.theme-btn.simple-btn {
   color: #ffffff;
 }
 
+.card-wrapper {
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+}
 .card-wrapper:hover {
-  transform: translateY(-10px);
+  transform: translateY(-5px);
 }
 
 .contact-form-btn {
