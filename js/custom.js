@@ -38,8 +38,8 @@ var $table = $('.table-like').isotope({
 
 
 
-        // OwlCarousel
-        $(document).ready(function(){$('.owl-carousel').owlCarousel({
+        // OwlBrandCarousel
+        $(document).ready(function(){$('.brand-carousel').owlCarousel({
             loop:true,
             navText: false,
             nav: false,
@@ -57,6 +57,60 @@ var $table = $('.table-like').isotope({
                 },
                 1000:{
                     items:5, 
+                }
+            }
+        })
+          });
+
+        // OwlPropertyCarousel
+        $(document).ready(function(){$('.property-carousel').owlCarousel({
+              loop:true,
+              navText: false,
+              nav: false,
+              dots: false,
+              autoplay: true,
+              margin:10,
+              responsiveClass:true,
+              responsive:{
+                  0:{
+                      items:1,
+                      nav:true
+                  },
+                  600:{
+                      items:1, 
+                  },
+                  1000:{
+                      items:2, 
+                  },
+                  1400:{
+                      items:3, 
+                  }
+              }
+          })
+          });
+
+        // OwlFindPropertyCarousel
+          $(document).ready(function(){$('.find-property-carousel').owlCarousel({
+            loop:true,
+            navText: false,
+            nav: false,
+            dots: false,
+            autoplay: true,
+            margin:10,
+            responsiveClass:true,
+            responsive:{
+                0:{
+                    items:1,
+                    nav:true
+                },
+                600:{
+                    items:1, 
+                },
+                1000:{
+                    items:2, 
+                },
+                1400:{
+                    items:3, 
                 }
             }
         })
@@ -149,6 +203,35 @@ var $table = $('.table-like').isotope({
 
             }
         });
+
+
+        // Property slider 
+            $('.property-slider').slick({
+                slidesToShow: 3,
+                infinite: true,
+                autoplay: true,
+                draggable: true,
+                arrows: false,
+                slidesToScroll: 1,
+                loop: true,
+                dots: true,
+                speed: 1500,
+                responsive: [
+                    {
+                        breakpoint: 992,
+                        settings: {
+                            slidesToShow: 2,
+                        },
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1,
+                        },
+                    },
+                ],
+            }); 
+          
 
         /*
        Slider

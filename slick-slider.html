@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>My Now Amazing Webpage</title>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  
+    <style>
+      h1{
+        background: #ff0202;
+        padding: 50px;
+        margin-bottom: 20px;
+        font-size: 40px;
+      }
+
+      h2{
+        background: #340ebc;
+        padding: 50px;
+        margin-bottom: 20px;
+        font-size: 40px;
+
+      }
+
+      h3{ 
+        background: #3b06fd;
+        padding: 50px;
+        margin-bottom: 20px; 
+        font-size: 40px;
+      }
+
+    </style>
+    </head>
+    <body>
+  
+    <div class="slider">
+      <div>
+        <h1> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quam voluptates natus nobis, dolorem maiores sequi esse sapiente repellendus, aperiam unde doloremque nulla optio tempore? Accusantium velit sint eius nisi doloremque praesentium accusamus neque aspernatur ratione. Ipsa ab sunt in hic quidem beatae quisquam officia, ullam perspiciatis omnis? Facere, quidem.</h1>
+      </div>
+      <div>
+        <h2> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quam voluptates natus nobis, dolorem maiores sequi esse sapiente repellendus, aperiam unde doloremque nulla optio tempore? Accusantium velit sint eius nisi doloremque praesentium accusamus neque aspernatur ratione. Ipsa ab sunt in hic quidem beatae quisquam officia, ullam perspiciatis omnis? Facere, quidem.</h2>
+    </div>
+      <div>
+        <h3> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quam voluptates natus nobis, dolorem maiores sequi esse sapiente repellendus, aperiam unde doloremque nulla optio tempore? Accusantium velit sint eius nisi doloremque praesentium accusamus neque aspernatur ratione. Ipsa ab sunt in hic quidem beatae quisquam officia, ullam perspiciatis omnis? Facere, quidem.</h3>
+    </div>
+    </div>
+  
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+  
+    <script type="text/javascript">
+      
+      $(document).ready(function(){
+        $(".slider").slick({
+
+// normal options...
+infinite: false,
+
+// the magic
+responsive: [{
+
+    breakpoint: 1024,
+    settings: {
+      slidesToShow: 3,
+      infinite: true
+    }
+
+  }, {
+
+    breakpoint: 600,
+    settings: {
+      slidesToShow: 2,
+      dots: true
+    }
+
+  }, {
+
+    breakpoint: 300,
+    settings: "unslick" // destroys slick
+
+  }]
+});
+
+        });
+    </script>
+    </body>
+</html> 

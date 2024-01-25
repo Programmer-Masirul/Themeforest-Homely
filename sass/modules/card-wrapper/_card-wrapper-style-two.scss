@@ -11,11 +11,23 @@
         background: transparent;
         @include transition;
 
-        img{
-            opacity: 70%;
-            @include transition;
-        }
+        img {
+         position: relative;
+         width: 100%; // Ensure the image takes the full width of its container
 
+         &:before {
+             content: "";
+             position: absolute;
+             top: 0;
+             left: 0;
+             width: 100%; // Make sure the gradient covers the entire image
+             height: 100%; // Make sure the gradient covers the entire image
+             background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+             z-index: 99;
+             opacity: 1; // Set the initial opacity
+             @include transition;
+         }
+        }
         .card-action{
          position: absolute;
          display: flex;
@@ -110,12 +122,14 @@
          }
         }
 
-        &:hover{  
-        height: 620px;
+         &:hover{  
+         height: 620px;
 
-        img{
-            opacity: 100%;
-        }
+         img {
+             &:before {
+                 opacity: 0;
+             }
+         }
 
          .card-body{
             transform: translateY(90%);
@@ -123,6 +137,7 @@
             width: 100%; 
             box-shadow: $box-shadow;
 
+         }
          }
         }
 
@@ -311,4 +326,3 @@
         }
      }
     }
-}

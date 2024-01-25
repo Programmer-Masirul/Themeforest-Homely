@@ -320,25 +320,23 @@ input.theme-btn {
   }
 }
 
-.wp-block-loginout {
-  a {
-    position: relative;
+.theme-btn-two{
+    padding: 15px 30px;
+    font-family: $body-font;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 20px;
+    border: 1px solid $primary-color;
+    color: $white;
+    background: $primary-color;
+    @include transition;
 
-    &:after {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      content: "\f105";
-      font-family: $font-awesome;
-      width: 44px;
-      height: 44px;
-      border-radius: 6px;
-      background-color: $primary-color;
-      color: #fff;
-      font-size: 13px;
+    &:hover{
+        background: $white;
+        color: $primary-color;
     }
-  }
 }
+
 
 .theme-btn-secondary{
   display: inline-flex;
@@ -436,8 +434,8 @@ input.theme-btn {
 .title-center {
 
   p{
-      font-family: 'Teko',sans-serif;
-      font-size: 18px;
+      font-family: $body-font;
+      font-size: 15px;
       font-weight: 400;
       line-height: 30px;
       letter-spacing: 0.1em;
@@ -449,8 +447,8 @@ input.theme-btn {
 
 .sub-title-center {
   h2{
-      font-family: 'Teko',sans-serif;
-      font-size: 39px;
+      font-family: $heading-font;
+      font-size: 50px;
       font-weight: 600;
       line-height: 60px;
       letter-spacing: 0em;
@@ -463,8 +461,8 @@ input.theme-btn {
 .title {
 
   p{
-      font-family: 'Teko',sans-serif;
-      font-size: 18px;
+      font-family: $body-font;
+      font-size: 15px;
       font-weight: 400;
       line-height: 30px;
       letter-spacing: 0.1em;
@@ -480,7 +478,7 @@ input.theme-btn {
 .sub-title {
 
   h2{
-      font-family: 'Teko',sans-serif;
+      font-family: $body-font;
       font-size: 40px;
       font-weight: 600;
       line-height: 60px;
